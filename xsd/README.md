@@ -12,7 +12,9 @@ https://www.minorplanetcenter.net/iau/info/ADESFieldValues.html
 
 I use the submit-mpc-sc.xsd with xmllint (available in any Linux
 distribution) this way:
-xmllint --schema submit-mpc.xsd --noout my_submissions.xml
+<pre>
+xmllint --schema submit-mpc-sc.xsd --noout my_submissions.xml
+</pre>
 
 I ran it on twenty-ish Pan-STARRS submission batches. I also
 deliberately created a series of files to test.
